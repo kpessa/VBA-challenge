@@ -13,6 +13,7 @@
 ## Section 1
 
 - Created a script that will loop through all the stocks for one year ..
+
 	 ![](Images/forloop1.png)
 	
 	-------------
