@@ -14,17 +14,17 @@
 
 - Created a script that will loop through all the stocks for one year ..
 
-	 ![](Images/forloop1.png)
+	![](Images/forloop1.png)
 	
 	-------------
 
-	 ![](Images/startrow0.png)
+	![](Images/startrow0.png)
 	
 	-------------
 	 
-	   ![](Images/endrow1.png)
-	   ![](Images/endrow0.png)
-	   -------------
+	![](Images/endrow1.png)
+	![](Images/endrow0.png)
+	-------------
 
 
 -  and output the following information
