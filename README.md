@@ -1,10 +1,13 @@
 # VBA Challenge
--------
-![](Images/stockmarket.jpg =100x100)
+
+![](Images/stockmarket0.jpg)
 
 ###### by Kurt Pessa
 
-### Setup
+----------
+
+
+#### Setup
 
 1. Created a new repository `VBA-challenge` on GitHub with share-able link at [https://github.com/kpessa/VBA-challenge](https://github.com/kpessa/VBA-challenge)
 2. Created a folder to correspond to the challenge called `VBAStocks`
@@ -36,7 +39,27 @@
 
 	![](Images/customStockClass.png)
 
+#### Section 3: Traversing through data logic
 
+![](Images/looplogic.png)
 
+#### Section 4: Quality Assurance
 
-	
+![](Images/qa.png)
+
+#### Section 5: Enhancing Performance
+
+- Original macro took about 18.9 seconds to traverse through the 797,711 rows of stock data.
+
+![](Images/performance1.png)	
+
+- Took advice from "Excel Macro Mastery" .. [How to make your Excel VBA code run 1000 times faster.](https://www.youtube.com/watch?v=GCSF5tq7pZ0) 
+- Decided to load data into an array before looping through. 
+	- Brought processing time down from **~18.9 s to ~2.08 s. ~9 times faster.**  
+
+![](Images/performance2.png)
+![](Images/looplogicarray.png)
+ 
+- Also, added a few performance enhancement tricks.
+
+![](Images/performance3.png)
