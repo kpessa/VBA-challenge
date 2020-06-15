@@ -6,18 +6,27 @@
 
 ----------
 
+# Table of Contents <a name="toc"></a>
+- [Setup](#setup)
+- [Submission](#submission)
+1. [Section 1: Processing Data](#section1)
+2. [Section 2: Outputting to Summary Table](#section2)
+3. [Section 3: Challenge](#section3)
 
-#### Setup
+----------
+
+#### Setup <a name="setup"></a>
 
 1. Created a new repository `VBA-challenge` on GitHub with share-able link at [https://github.com/kpessa/VBA-challenge](https://github.com/kpessa/VBA-challenge)
 2. Created a folder to correspond to the challenge called `VBAStocks`
 
-#### Submission
+#### Submission <a name="submission"></a>
+[Back to Table of Contents](#toc)
 
-##### 1. Scripts (2)
+##### 1. Scripts (2) 
 
--	Main VBA script attached as **`Main.bas`**
-	-	Main Scripts:
+1.	**`Main.bas`**: Main VBA script 
+	-	Includes these subroutines:
 		-	**Sub Main()**: includes main script life cycle, loop through each worksheet
 		-	**Sub Macro()**: main script logic, uses array to store data, also includes scripting to output to summary table, conditional formatting
 		-	**Sub Macro_NotUsingArray()**: original script logic, processed data from worksheet.  *Not* used in final script.
@@ -25,9 +34,9 @@
 	-	Performance tweaks:
 		-	**Sub EnablePerformance()**: uses performance tweaks, ie. disabling animation, screenupdating, and calculation turned to manual instead of automatic. 
 		-	**Sub ResetPerformance()**: resets default application settings.
--	Custom class module for `StockClass` attached as **`StockClass.cls`**
+2.	**`StockClass.cls`**: Custom class module for `StockClass` attached as 
 
-##### 2. Screenshots (2)
+##### 2. Screenshots (3)
 
 - 2016 screenshot attached as **`screenshot_2016.png`**
 
@@ -41,7 +50,10 @@
 
 	![](screenshot_2014.png)
 
-#### Section 1: For Loop
+## Section 1: Processing Data <a name="section1"></a>
+[Back to Table of Contents](#toc)
+
+##### Part 1: For Loop
 
 - Created a script that will loop through all the stocks for one year ..
 
@@ -57,7 +69,7 @@
 	![](Images/endrow0.png)
 	-------------
 
-#### Section 2: StockClass Class Module
+##### Part 2: StockClass Class Module
 
 -  kept track and outputted the following information to a summary table by creating a custom vba class called `Stock Class`
 	1. `tickerSymbol` - the ticker symbol
@@ -67,15 +79,15 @@
 
 	![](Images/customStockClass.png)
 
-#### Section 3: Traversing through data logic
+##### Part 3: Traversing through data logic
 
 ![](Images/looplogic.png)
 
-#### Section 4: Quality Assurance
+##### Part 4: Quality Assurance
 
 ![](Images/qa.png)
 
-#### Section 5: Enhancing Performance
+##### Part 5: Enhancing Performance
 
 - Original macro took about 18.9 seconds to traverse through the 797,711 rows of stock data.
 
@@ -92,8 +104,8 @@
 
 ![](Images/performance3.png)
 
-#### Section 2: Output Table
-
+## Section 2: Outputting to Summary Table <a name="section2"></a>
+[Back to Table of Contents](#toc)
 1. Writing header row
 	
 	- I became comfortable with setting Excel ranges in VBA with the same size array.
@@ -117,5 +129,11 @@
 
 	![](Images/conditional.png)
 
-## Challenges
+## Section 3: Challenge <a name="section3"></a>
+[Back to Table of Contents](#toc)
+- Used built-in Excel functions `XLOOKUP` and `Max`/`Min` to find max min values and ticker symbols for 
+	1.	`Greatest % increase`
+	2.	`Greatest % decrease`
+	3.	`Greatest Total Volume` 
 
+![](Images/challenge.png)
