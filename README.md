@@ -12,7 +12,7 @@
 1. [Section 1: Processing Data](#section1)
 	- [Part 1: For Loop](#part1)
 	- [Part 2: StockClass Class Module](#part2)
-	- Part 3: Traversing through data logic
+	- [Part 3: Traversing through data logic](#part3)
 	- Part 4: Quality Assurance
 	- Part 5: Enhancing Performance
 2. [Section 2: Outputting to Summary Table](#section2)
@@ -85,7 +85,7 @@
 
 	![](Images/customStockClass.png)
 
-##### Part 3: Traversing through data logic
+##### Part 3: Traversing through data logic <a name="part3"></a>
 
 ![](Images/looplogic.png)
 
