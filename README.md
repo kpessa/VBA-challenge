@@ -20,7 +20,7 @@
 
 ----------
 
-#### Setup <a name="setup"></a> 
+#### Setup <a name="setup"></a>
 [Back to Table of Contents](#toc)
 
 1. Created a new repository `VBA-challenge` on GitHub with share-able link at [https://github.com/kpessa/VBA-challenge](https://github.com/kpessa/VBA-challenge)
