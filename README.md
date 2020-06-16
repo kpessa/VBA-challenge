@@ -10,7 +10,7 @@
 - [Setup](#setup)
 - [Submission](#submission)
 1. [Section 1: Processing Data](#section1)
-	- Part 1: For Loop
+	- [Part 1: For Loop](#part1)
 	- Part 2: StockClass Class Module
 	- Part 3: Traversing through data logic
 	- Part 4: Quality Assurance
@@ -59,7 +59,7 @@
 ## Section 1: Processing Data <a name="section1"></a>
 [Back to Table of Contents](#toc)
 
-##### Part 1: For Loop
+##### Part 1: For Loop <a name="part1"></a>
 
 - Created a script that will loop through all the stocks for one year ..
 
