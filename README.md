@@ -15,21 +15,20 @@
 	- [Part 1: For Loop](#part1)
 	- [Part 2: StockClass Class Module](#part2)
 	- [Part 3: Traversing through data logic](#part3)
-	- Part 4: Quality Assurance
-	- Part 5: Enhancing Performance
+	- [Part 4: Quality Assurance](#part4)
+	- [Part 5: Enhancing Performance](#part5)
 2. [Section 2: Outputting to Summary Table](#section2)
 3. [Section 3: Challenge](#section3)
 
 ----------
 
-#### Setup <a name="setup"></a>
-[Back to Table of Contents](#toc)
+## Setup <a name="setup"></a>
 
 1. Created a new repository `VBA-challenge` on GitHub with share-able link at [https://github.com/kpessa/VBA-challenge](https://github.com/kpessa/VBA-challenge)
 2. Created a folder to correspond to the challenge called `VBAStocks`
 
-#### Submission <a name="submission"></a>
 [Back to Table of Contents](#toc)
+## Submission <a name="submission"></a>
 
 ##### 1. Scripts (2) 
 
@@ -59,6 +58,8 @@
 - 2014 screenshot attached as **`Screenshots/screenshot_2014.png`**
 
 	![](Screenshots/screenshot_2014.png)
+
+[Back to Table of Contents](#toc)
 
 ## Section 1: Processing Data <a name="section1"></a>
 [Back to Table of Contents](#toc)
@@ -93,11 +94,11 @@
 
 ![](Images/looplogic.png)
 
-##### Part 4: Quality Assurance
+##### Part 4: Quality Assurance <a name="part4"></a>
 
 ![](Images/qa.png)
 
-##### Part 5: Enhancing Performance
+##### Part 5: Enhancing Performance <a name="part5"></a>
 
 - Original macro took about 18.9 seconds to traverse through the 797,711 rows of stock data.
 
