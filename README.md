@@ -11,7 +11,7 @@
 - [Submission](#submission)
 1. [Section 1: Processing Data](#section1)
 	- [Part 1: For Loop](#part1)
-	- Part 2: StockClass Class Module
+	- [Part 2: StockClass Class Module](#part2)
 	- Part 3: Traversing through data logic
 	- Part 4: Quality Assurance
 	- Part 5: Enhancing Performance
@@ -75,7 +75,7 @@
 	![](Images/endrow0.png)
 	-------------
 
-##### Part 2: StockClass Class Module
+##### Part 2: StockClass Class Module <a name="part2"></a>
 
 -  kept track and outputted the following information to a summary table by creating a custom vba class called `Stock Class`
 	1. `tickerSymbol` - the ticker symbol
