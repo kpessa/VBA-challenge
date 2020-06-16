@@ -1,3 +1,4 @@
+Attribute VB_Name = "Main"
 Option Explicit
 
 Public Sub Main()
@@ -5,13 +6,18 @@ Public Sub Main()
     Dim startTime As Double
     startTime = Timer
     
+    Application.Cursor = xlWait
+    Application.StatusBar = "Starting VBA Script.. "
+    
     EnablePerformance
     
+    Application.StatusBar = "Opening 'Multiple_year_stock_data.xlsx'.. "
     Workbooks.Open ThisWorkbook.Path & "\VBAStocks\Multiple_year_stock_data.xlsx"
     Dim ws As Worksheet
     For Each ws In Workbooks("Multiple_year_stock_data.xlsx").Worksheets
         
         Debug.Print vbNewLine & "Time started year " & ws.Name & ": " & Timer - startTime & " s"
+        Application.StatusBar = "Time started year " & ws.Name & ": " & Timer - startTime & " s"
         
         'Call Macro_NotUsingArray startTime
         Macro ws, startTime
@@ -20,8 +26,10 @@ Public Sub Main()
     Next
     
     ResetPerformance
+    Application.Cursor = xlDefault
     
     Debug.Print vbNewLine & "Time ended: " & Timer - startTime & " s"
+    Application.StatusBar = "Time ended: " & Timer - startTime & " s"
     
 End Sub
 
@@ -89,6 +97,7 @@ Private Sub Macro(ws As Worksheet, ByVal startTime As Double)
     
     ' Setting column K or "Percent Change" to Percent number format
     ws.Columns("K:K").NumberFormat = "0.00%"
+    
     
     For i = 1 To stockCollection.Count
     
