@@ -9,6 +9,8 @@
 # Table of Contents <a name="toc"></a>
 - [Setup](#setup)
 - [Submission](#submission)
+	1. Scripts (2)
+	2. Screenshots (3)
 1. [Section 1: Processing Data](#section1)
 	- [Part 1: For Loop](#part1)
 	- [Part 2: StockClass Class Module](#part2)
@@ -31,7 +33,9 @@
 
 ##### 1. Scripts (2) 
 
-1.	**`Main.bas`**: Main VBA script 
+- Included in `VBAScripts` directory
+
+1.	**`VBAScripts\Main.bas`**: Main VBA script
 	-	Includes these subroutines:
 		-	**Sub Main()**: includes main script life cycle, loop through each worksheet
 		-	**Sub Macro()**: main script logic, uses array to store data, also includes scripting to output to summary table, conditional formatting
@@ -40,21 +44,21 @@
 	-	Performance tweaks:
 		-	**Sub EnablePerformance()**: uses performance tweaks, ie. disabling animation, screenupdating, and calculation turned to manual instead of automatic. 
 		-	**Sub ResetPerformance()**: resets default application settings.
-2.	**`StockClass.cls`**: Custom class module for `StockClass` attached as 
+2.	**`VBAScripts\StockClass.cls`**: Custom class module for `StockClass`
 
 ##### 2. Screenshots (3)
 
-- 2016 screenshot attached as **`screenshot_2016.png`**
+- 2016 screenshot attached as **`Screenshots\screenshot_2016.png`**
 
-	![](screenshot_2016.png)
+	![](Screenshots/screenshot_2016.png)
 
-- 2015 screenshot attached as **`screenshot_2015.png`**
+- 2015 screenshot attached as **`Screenshots/screenshot_2015.png`**
 
-	![](screenshot_2015.png)
+	![](Screenshots/screenshot_2015.png)
 
-- 2014 screenshot attached as **`screenshot_2014.png`**
+- 2014 screenshot attached as **`Screenshots/screenshot_2014.png`**
 
-	![](screenshot_2014.png)
+	![](Screenshots/screenshot_2014.png)
 
 ## Section 1: Processing Data <a name="section1"></a>
 [Back to Table of Contents](#toc)
