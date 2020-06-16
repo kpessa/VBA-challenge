@@ -10,6 +10,11 @@
 - [Setup](#setup)
 - [Submission](#submission)
 1. [Section 1: Processing Data](#section1)
+	- Part 1: For Loop
+	- Part 2: StockClass Class Module
+	- Part 3: Traversing through data logic
+	- Part 4: Quality Assurance
+	- Part 5: Enhancing Performance
 2. [Section 2: Outputting to Summary Table](#section2)
 3. [Section 3: Challenge](#section3)
 
